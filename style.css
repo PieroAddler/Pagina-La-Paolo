@@ -1,0 +1,258 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gulzar', serif;
+}
+a{
+    color: #ddd;
+}
+a:hover{
+    color: #43d373;
+}
+i{
+    text-transform: lowercase;
+}
+.up{
+    display: flex;
+    background: #3c3e3f;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.up__left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #43d373;
+}
+.up__left-logo-1{
+    width: 40%;
+}
+.logo-1{
+    width: 100%;
+}
+.up__left-titulo{
+    font-size: 20px;
+    width: 60%;
+    color: #fff;
+    transition-duration: 0;
+}
+.up__left-titulo:hover{
+    transition-duration: 0;
+    color: #43d373;
+}
+.up__right{
+    width: 80%;
+}
+.up__right-top-paragraph{
+    font-size: 10px;
+}
+.up__right-top{
+    display: flex;
+    justify-content: end;
+    border: 1px solid #43d373;
+    background-color: #242526;
+    height: 40px;
+    align-items: center;
+}
+.up__right-top-nav-ul{
+    display: flex;
+    justify-content: space-around;
+}
+.fa-brands{
+    margin: 0 10px;
+}
+.fa-twitter, .fa-facebook-f, .fa-instagram, .fa-youtube{
+    color: #aaa;
+}
+.fa-twitter:hover, .fa-facebook-f:hover, .fa-instagram:hover, .fa-youtube:hover{
+    color: #eee;
+}
+.up__right-lower{
+    border: 1px solid #43d373;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.fa-solid{
+    border: 1px solid #43d373;
+    padding: 20px 20px; 
+    margin: -2px;
+}
+#section-1{
+    background-color: #242526;
+    display: flex;
+    height: 32em;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+.section-1__image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noticia-1{
+    height: 90%;
+}
+.section-1__parragraph{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-1__parragraph-h1{
+    font-size: 2.5em;
+    padding: 0 15px;
+    margin: 0;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.section-1__parragraph-h1:hover{
+    font-size: 2.5em;
+    padding: 0 45px;
+    margin: 0;
+    background-color: #72ee42;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.section-1__parragraph-p{
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 10px 70px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.section-1__parragraph-p:hover{
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 10px 94px;
+    background-color: #72ee42;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+#section-2{
+    background-color: #343435;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+.section-2__camisetas{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2__camisetas-h3{
+    background: transparent;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+.section-2__camisetas-h3:hover{
+    transition: background-color 1.5s;
+    background-color: #43d373;
+}
+.section-2__camisetas-img{
+    width: 70%;
+}
+.section-2__nextgame{
+    width: 50%;
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2__nextgame-card{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 3em;
+    width: 50%;
+    background: #fff;
+    color: #000;
+    border-radius:20px;
+}
+.section-2__nextgame-card-estadio{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.section-2__nextgame-card-estadio-img{
+    width: 100%;
+}
+
+.section-2__nextgame-card-vs h4{
+    font-size: 1.2em;
+    padding: 0px 10px;
+}
+.section-2__nextgame-card-data p{
+    font-size: 0.8em;
+}
+.section-2__nextgame-card-data-p{
+    margin: 0;
+    padding: 0 10px;
+}
+#section-3{
+    background-color: #242526;
+    height: 100vh;
+    position: relative;
+    top: 100px;
+}
+#section-4{
+    background-color: #343435;
+    height: 100vh;
+    position: relative;
+    top: 100px;
+}
+.section-4__participantes{
+    display: flex;
+    justify-content: space-around;
+}
+.down{
+    background-color: #242526;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+.logo-2{
+    width: 40%;
+}
+.down-left__top{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.down-left__top-a{
+    padding-left: 0;
+}
+.logo-2{
+    margin: 0;
+    padding: 0;
+}
+.down-left__top-parragraph{
+    margin: 0;
+}
+.down-left__lower{
+    display: flex;
+    justify-content: space-between;
+}
+.down-right{
+    display: flex;
+    align-items: end;
+}
